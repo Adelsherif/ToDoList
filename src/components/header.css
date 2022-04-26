@@ -1,0 +1,35 @@
+
+.head{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 30px;
+}
+.head h1{
+    font-size: 34px;
+    letter-spacing: 5px;
+    font-weight:bolder;
+}
+.head h1 span{
+    color: rgb(34, 196, 196);
+}
+.head .icons{
+    font-size: 35px;
+    display: flex;
+    color: rgb(90, 214, 214);
+    animation: animate 7s ease-in-out infinite;
+}
+@keyframes animate {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.5) rotate(360deg);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
